@@ -38,19 +38,19 @@ namespace codenation
                     {
                         if (alphabet.Contains(c))
                         {
-                            int resto = (numero_casas - Array.IndexOf(alphabet, c)) - 1; // pega o resto que falta do numero de casas caso exceda e coloca no alfabeto reverso
+                            int resto = (numero_casas - Array.IndexOf(alphabet, c)) - 1; // Pega o resto que falta do numero de casas caso exceda e coloca no alfabeto reverso
                             decifrado += Array.IndexOf(alphabet, c) < numero_casas ? Char.ToLower(reverso[resto]) : Char.ToLower(alphabet[Array.IndexOf(alphabet, c) - numero_casas]);
-                            // se a letra for menor que numero_casas, recorro ao alfabeto reverso, se não, sigo o alfabeto normal subtraindo o numero_casas, 
+                            // Se a letra for menor que numero_casas, recorro ao alfabeto reverso, se não, sigo o alfabeto normal subtraindo o numero_casas, 
                         }
                         else
                         {
-                            decifrado += c; // caso não esteja no alfabeto
+                            decifrado += c; // Caso não esteja no alfabeto
                         }
                     }
-                    hashData = new SHA1Managed().ComputeHash(Encoding.ASCII.GetBytes(decifrado)); // codificando o valor decifrado...
+                    hashData = new SHA1Managed().ComputeHash(Encoding.ASCII.GetBytes(decifrado)); // Codificando o valor decifrado...
                     foreach (var b in hashData)
                     {
-                        hash += b.ToString("X2"); // adicionando pra hexadecimal em letra maiuscula
+                        hash += b.ToString("X2"); // Adicionando pra hexadecimal em letra maiuscula
                     }
                     Console.WriteLine(decifrado);
                     Console.WriteLine(hash.ToLower());
