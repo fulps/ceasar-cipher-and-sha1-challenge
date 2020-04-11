@@ -1,0 +1,11 @@
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\bin\Debug\netcoreapp2.2\codenation.deps.json
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\bin\Debug\netcoreapp2.2\codenation.runtimeconfig.json
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\bin\Debug\netcoreapp2.2\codenation.runtimeconfig.dev.json
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\bin\Debug\netcoreapp2.2\codenation.dll
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\bin\Debug\netcoreapp2.2\codenation.pdb
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\obj\Debug\netcoreapp2.2\codenation.csprojAssemblyReference.cache
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\obj\Debug\netcoreapp2.2\codenation.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\obj\Debug\netcoreapp2.2\codenation.AssemblyInfoInputs.cache
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\obj\Debug\netcoreapp2.2\codenation.AssemblyInfo.cs
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\obj\Debug\netcoreapp2.2\codenation.dll
+C:\Users\ThinkPad\source\repos\Studies\codenation_challenge\obj\Debug\netcoreapp2.2\codenation.pdb
